@@ -3,11 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <>  
+      <div className="grid md:grid-cols-11 grid-cols-1 gap-10 md:gap-0 py-16 max-w-screen-md mx-auto ">
         <img className="absolute left-0 top-[20%] md:top-10 rotate-90 w-20 opacity-30" src="../src/assets/img/leaf-branch-2.png" alt="" />
         <img className="absolute right-0 bottom-2 md:top-52 w-20 opacity-30" src="../src/assets/img/leaf-branch-4.png" alt="" />
-      <div className="grid md:grid-cols-11 grid-cols-1 gap-10 md:gap-0 py-16 max-w-screen-md mx-auto">
-        
-        <div className="md:col-span-5 order-2 md:order-1 flex flex-col md:items-start items-center gap-2 font-lora text-center">
+        <div className="md:col-span-5 order-2 md:order-1 flex flex-col md:items-start items-center gap-2 font-lora md:text-start text-center">
           <h1 className="text-5xl text-title">Enjoy Delicious</h1>
           <div className="flex gap-2 items-center">
             <img
