@@ -13,6 +13,7 @@ module.exports = {
       'txt': 'hsl(19, 16%, 35%)',
       'txt-light': 'hsl(19, 8%, 55%)',
       'body-color': 'hsl(19, 100%, 96%)',
+      'body-color-alt': 'hsl(19, 100%, 97%)',
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],

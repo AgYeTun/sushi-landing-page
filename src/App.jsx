@@ -3,6 +3,9 @@ import Home from './pages/Home'
 import 'remixicon/fonts/remixicon.css'
 import Nav from './components/Navbar'
 import AboutUs from './pages/AboutUs'
+import Popular from './pages/Popular'
+import Recently from './pages/Recently'
+import Newsletter from './pages/Newsletter'
 
 const App = () => {
   return (
@@ -11,6 +14,9 @@ const App = () => {
         <Nav />
         <Home />
         <AboutUs />
+        <Popular />
+        <Recently />
+        <Newsletter />
       </div>
     </div>
   )

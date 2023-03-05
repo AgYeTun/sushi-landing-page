@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent border-gray-200 py-0 rounded font-poppins max-w-screen-md mx-auto">
+    <nav className="bg-transparent border-gray-200 py-0 rounded font-poppins max-w-screen-md mx-auto px-6">
       <div className="container flex flex-wrap items-center justify-between mx-auto px-2 md:px-0">
         <a href="#" className="flex items-center gap-1">
           <img
