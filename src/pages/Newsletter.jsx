@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <div className="py-16 px-6 md:max-w-screen-md md:mx-auto">
-      <div className="md:grid md:grid-cols-2 bg-title rounded-[34px] md:pt-16 md:pb-10 text-center relative">
+      <div className="md:grid md:grid-cols-2 md:gap-4 bg-title rounded-[34px] md:pt-16 md:pb-10 text-center relative">
         <img
           className="w-7 absolute bottom-[-30px] right-[60px] rotate-45"
           src="../src/assets/img/spinach-leaf.png"
@@ -22,7 +22,7 @@ const Newsletter = () => {
             src="../src/assets/img/newsletter-sushi.png"
             alt=""
           />
-          <h1 className="font-dancing_script font-semibold text-xl text-primary mb-2">
+          <h1 className="font-dancing_script font-semibold text-xl text-primary md:ml-3 mb-2">
             Newsletter
           </h1>
           <h2 className="font-lora text-3xl text-white mb-8">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Recently = () => {
   return (
-    <div className="grid md:grid-cols-11 grid-cols-1 gap-16 md:gap-0 py-16 max-w-screen-md mx-auto px-6">
+    <div id="recently" className="grid md:grid-cols-11 grid-cols-1 gap-16 md:gap-0 py-16 max-w-screen-md mx-auto px-6">
       <div className="md:col-span-5 flex flex-col md:items-start items-center gap-2 font-lora md:text-start text-center">
         <h1 className="font-dancing_script font-semibold text-lg text-primary">
           Recently Added

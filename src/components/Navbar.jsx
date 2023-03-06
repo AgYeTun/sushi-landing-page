@@ -49,7 +49,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#recently"
                 className="block py-2 pl-3 pr-4 hover:text-primary md:p-0">
                 Recently
               </a>
