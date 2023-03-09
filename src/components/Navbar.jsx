@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent border-gray-200 py-0 rounded font-poppins max-w-screen-md mx-auto px-6">
+    <nav className="bg-body-color border-gray-200 py-0 rounded font-poppins max-w-screen-md mx-auto px-6 sticky top-0 z-20">
       <div className="container flex flex-wrap items-center justify-between mx-auto px-2 md:px-0">
         <a href="#" className="flex items-center gap-1">
           <img
@@ -10,7 +10,7 @@ const Navbar = () => {
             className="h-8"
             alt="Sushi Logo"
           />
-          <span className="self-center text-xl font-semibold text-title whitespace-nowrap">
+          <span className="self-center font-lora text-xl font-semibold text-title whitespace-nowrap">
             Sushi
           </span>
         </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent">
             <li>
               <a
-                href="#"
+                href="#home"
                 className="block py-2 pl-3 pr-4 hover:text-primary md:p-0"
                 aria-current="page">
                 Home
@@ -35,14 +35,14 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 className="block py-2 pl-3 pr-4 hover:text-primary md:p-0">
                 About Us
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#popular"
                 className="block py-2 pl-3 pr-4 hover:text-primary md:p-0">
                 Popular
               </a>

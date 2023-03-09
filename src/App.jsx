@@ -1,11 +1,13 @@
 import React from 'react'
 import Home from './pages/Home'
+import 'animate.css';
 import 'remixicon/fonts/remixicon.css'
 import Nav from './components/Navbar'
 import AboutUs from './pages/AboutUs'
 import Popular from './pages/Popular'
 import Recently from './pages/Recently'
 import Newsletter from './pages/Newsletter'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
         <Popular />
         <Recently />
         <Newsletter />
+        <Footer />
       </div>
     </div>
   )

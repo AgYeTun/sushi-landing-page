@@ -15,14 +15,14 @@ const Recently = () => {
           Take a look at what's new. And do not deprive yourself of a good meal,
           enjoy and be happy.
         </p>
-        <button className="font-poppins bg-primary text-white px-4 py-2 rounded-full flex items-center gap-2 mx-auto md:ml-0 relative">
+        <button className="font-poppins bg-primary text-white px-4 py-2 rounded-full flex items-center gap-2 mx-auto md:ml-0 relative group">
           <img
             className="absolute top-[20px] left-[170px] md:-top-[30px] md:left-[300px] rotate-45 w-6"
             src="../src/assets/img/spinach-leaf.png"
             alt=""
           />
           <p className="tracking-tighter">Order Now</p>
-          <i class="ri-arrow-right-line text-xl"></i>
+          <i class="ri-arrow-right-line text-xl group-hover:translate-x-1 transition"></i>
         </button>
       </div>
       <div className="md:col-span-6">
