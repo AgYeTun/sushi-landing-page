@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-body-color border-gray-200 py-0 rounded font-poppins max-w-screen-md mx-auto px-6 sticky top-0 z-20">
-      <div className="container flex flex-wrap items-center justify-between mx-auto px-2 md:px-0">
-        <a href="#" className="flex items-center gap-1">
+    <nav className="bg-body-color border-gray-200 py-0 rounded w-full font-poppins mx-auto fixed top-0 z-20">
+      <div className="container flex flex-wrap items-center justify-between max-w-screen-md px-6  mx-auto px-2 md:px-0">
+        <a href="#" className="flex items-center gap-1 md:relative md:left-6">
           <img
             src="../src/assets/img/logo.png"
             className="h-8"

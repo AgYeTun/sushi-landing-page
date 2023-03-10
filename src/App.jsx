@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='bg-body-color'>
-      <div className="container mx-auto">
+      <div className=" ">
         <Nav />
         <Home />
         <AboutUs />
